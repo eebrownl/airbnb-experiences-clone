@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.logo{
+  height: 26px;
+  width: auto;
+  margin: 22px auto 22px 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hero--image {
+  max-width: 500px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0px;
+}
+
+.card {
+  padding: 20px;
+  position: relative;
+}
+
+.card--image {
+  border-radius: 9px;
+  height: 235px;
+  width: auto;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card--rating {
+  font-size: .8rem;
+}
+
+.card--title {
+  font-size: .8rem;
+  padding-top: 4px;
+  max-width: 175px;
+}
+
+.card--price {
+  font-size: .8rem;
+  padding-top: 4px;
+}
+
+.card--star {
+  height: 10px;
+  width: auto;
+}
+
+.gray {
+  color: #918E9B
+}
+
+.card-holder {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card--badge {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  background-color: white;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-weight: bold;
 }
